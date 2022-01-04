@@ -1,0 +1,5 @@
+<header>
+    <span title="Back" bind-click="Close()" class="material-icons">arrow_back</span>
+    <span class="title">Character Custom</span>
+    <span title="More Options" bind-click="MoreOptions()" class="material-icons">more_vert</span>
+</header>

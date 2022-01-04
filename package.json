@@ -1,5 +1,5 @@
 {
-  "name": "@townland-project/application",
+  "name": "@townland-project/character-custom",
   "version": "0.0.1",
   "description": "Townland application boilerplate",
   "main": "public/bundle.js",
@@ -21,7 +21,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/townland-project/application.git"
+    "url": "https://github.com/townland-project/character-custom.git"
   },
   "homepage": "https://application.townland.xyz",
   "license": "MIT",
@@ -41,20 +41,22 @@
   },
   "dependencies": {
     "@townland-project/app": "*",
-    "@townland-project/dom": "*",
-    "@townland-project/eventer": "*",
-    "@townland-project/gui": "*"
+    "@townland-project/character-dom": "github:townland-project/character-dom",
+    "@townland-project/dom": "^0.0.8",
+    "@townland-project/eventer": "^0.0.2",
+    "@townland-project/gui": "*",
+    "@townland-project/interfaces": "github:townland-project/interfaces"
   },
   "browserslist": [
     "last 1 Chrome versions"
   ],
   "townland": {
-    "id": "xyz.townland.application",
-    "name": "Application",
-    "url": "https://application.townland.xyz/",
+    "id": "xyz.townland.character-custom",
+    "name": "Custom Character",
+    "url": "https://character-custom.townland.xyz/",
     "permission": [],
     "icon": {
-      "url": "https://application.townland.xyz/src/assets/logo.png",
+      "url": "https://character-custom.townland.xyz/src/assets/logo.png",
       "size": "24px"
     },
     "color": {

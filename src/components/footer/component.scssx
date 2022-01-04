@@ -1,0 +1,24 @@
+tl-character-custom-footer {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+
+    padding: var(--footer-padding);
+
+    background-color: var(--footer-background-color);
+
+    border-radius: var(--footer-border-radius);
+
+    box-shadow: var(--footer-shadow);
+
+    transition: all var(--animation-speed);
+
+    z-index: 2;
+
+    margin-bottom: 0%;
+
+    &.hide {
+        margin-bottom: -60%;
+    }
+}

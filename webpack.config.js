@@ -14,7 +14,10 @@ module.exports = {
         rules: [
             {
                 test: /\.ts?$/i,
-                loader: "ts-loader"
+                loader: "ts-loader",
+                options: {
+                    allowTsInNodeModules: true
+                }
             },
             {
                 test: /\.htmlx$/i,

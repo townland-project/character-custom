@@ -1,0 +1,33 @@
+<div class="menu-view" id="main">
+    <div class="menu-item">
+        <span class="material-icons">accessibility</span>
+        Choose this costume
+    </div>
+    <div class="menu-item" bind-click="ShowView(save)">
+        <span class="material-icons">save</span>
+        Save this costume
+    </div>
+    <div class="menu-item" bind-click="ShowView(load)">
+        <span class="material-icons">refresh</span>
+        Load saved costume
+    </div>
+</div>
+<div class="menu-view hide" id="save">
+    <h3>
+        <span bind-click="ShowView(main)" class="material-icons">arrow_back</span>
+        Save current costume
+    </h3>
+    <input type="text" autocomplete="off" placeholder="Costume name" />
+    <br>
+    <div class="menu-item">
+        <span class="material-icons">save</span>
+        Save and choose
+    </div>
+</div>
+<div class="menu-view hide" id="load">
+    <h3>
+        <span bind-click="ShowView(main)" class="material-icons">arrow_back</span>
+        Load costumes
+    </h3>
+    <div id="load-items"></div>
+</div>

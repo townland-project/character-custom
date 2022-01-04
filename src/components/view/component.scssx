@@ -1,0 +1,17 @@
+tl-character-custom-view {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    height: 100%;
+
+    position: relative;
+
+    transition: all var(--animation-speed);
+
+    tl-character {
+        transform: scale(var(--character-scale));
+
+        transition: all var(--animation-speed);
+    }
+}

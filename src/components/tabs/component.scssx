@@ -1,0 +1,77 @@
+tl-character-custom-tabs {
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+
+    min-height: var(--tab-height);
+    height: var(--tab-height);
+
+    width: 100%;
+
+    overflow-y: hidden;
+    overflow-x: auto;
+
+    div.tab {
+        min-width: var(--tab-size);
+        width: var(--tab-size);
+        height: var(--tab-size);
+
+        border-radius: 50%;
+
+        margin: 0 var(--tab-margin);
+
+        background-color: var(--tab-background-color);
+        background-image: var(--image);
+        background-repeat: no-repeat;
+
+        transform: scale(0.8);
+
+        transition: all var(--animation-speed);
+
+        &.active {
+            box-shadow: 0 4px 1px var(--tab-active-shadow-color);
+
+            transform: scale(1);
+        }
+
+        &[tab-id="hair"] {
+            background-size: 90%;
+            background-position: 2px 2px;
+        }
+
+        &[tab-id="eyes"] {
+            background-size: 150%;
+            background-position: -12.5px -14px;
+        }
+
+        &[tab-id="mouth"] {
+            background-size: 200%;
+            background-position: -23px -50px;
+        }
+
+        &[tab-id="beard"] {
+            background-size: 160%;
+            background-position: -14px -36px;
+        }
+
+        &[tab-id="tops"] {
+            background-size: 100%;
+            background-position: 0 -30px;
+        }
+
+        &[tab-id="bottoms"] {
+            background-size: 100%;
+            background-position: -1px -50px;
+        }
+
+        &[tab-id="shoes"] {
+            background-size: 125%;
+            background-position: -5px -83px;
+        }
+
+        &[tab-id="accessories"] {
+            background-size: contain;
+            background-position: center center;
+        }
+    }
+}

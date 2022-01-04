@@ -1,0 +1,40 @@
+tl-character-custom-header {
+    z-index: 2;
+    
+    header {
+        display: flex;
+        flex-wrap: nowrap;
+        align-items: center;
+
+        height: var(--header-height);
+
+        color: var(--header-color);
+
+        background-color: var(--header-background-color);
+
+        backdrop-filter: blur(var(--header-blur));
+
+        padding: 0 var(--header-padding);
+
+        box-shadow: var(--header-shadow);
+
+
+        span.title {
+            margin: 0 auto;
+
+            font-size: 1.2em;
+        }
+
+        span.material-icons {
+            cursor: pointer;
+
+            &:hover {
+                transform: scale(1.1);
+            }
+
+            &:active {
+                transform: scale(0.9);
+            }
+        }
+    }
+}
