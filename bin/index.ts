@@ -1,7 +1,7 @@
 import { GenerateComponent } from './component'
 
 const
-    prefix = 'tl-character-custom',
+    prefix = 'app',
     args = process.argv
 
 if(args.length == 2) console.error("Need more arrangements.")

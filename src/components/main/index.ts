@@ -1,7 +1,7 @@
 import { Component } from '@townland-project/dom'
 
 @Component({
-    id: 'tl-character-custom',
+    id: 'app-main',
     template: require('./component.htmlx'),
     style: require('./component.scssx')
 })

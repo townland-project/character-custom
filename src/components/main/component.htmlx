@@ -1,4 +1,1 @@
-<tl-character-custom-header></tl-character-custom-header>
-<tl-character-custom-view></tl-character-custom-view>
-<tl-character-custom-footer></tl-character-custom-footer>
-<tl-character-custom-menu></tl-character-custom-menu>
+<p><span>main</span> component is working!</p>
